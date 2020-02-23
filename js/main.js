@@ -13,6 +13,7 @@ window.onload=function(){
     //let refreshIntervalId = setInterval(timerFun(end), 10000);
 
 	let finfine = setInterval(timerFun(now, end, intTime), 1000);
+	setInterval(timerFun(now, end, intTime), 1000);
 }
 
 function timerFun(sT, eT, iT) {
