@@ -59,6 +59,6 @@ function addPad(n, p) {
 window.onload=function(){
 
         let end = new Date();
-        end.setSeconds( end.getSeconds() + 3605);  // add time to count down
-        let done = setInterval(function(){timerFun(end, done)}, 1000);
+        end.setSeconds( end.getSeconds() + 130);  // add time to count down
+        let done = setInterval(function(){timerFun(end, done)}, 222);
 }
